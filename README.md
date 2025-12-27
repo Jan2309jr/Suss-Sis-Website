@@ -1,1 +1,1 @@
-# Suss-Sis-Website
+# suss-sis-website

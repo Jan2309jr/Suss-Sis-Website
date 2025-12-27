@@ -1,0 +1,389 @@
+PROJECT TITLE
+
+Suss Sis Gourmet Bakery & Cafe – Full-Stack Production Website
+
+CONTEXT
+
+Build a fully functional, production-ready, SEO-optimized cafe website for “Suss Sis Gourmet Bakery & Cafe” using the provided logo, corporate overview, menu PDF, newsletter, and cake images.
+This is not a demo. This must be a real, deployable business website with admin control, ordering, payments, and POS integration.
+
+1️⃣ DESIGN & AESTHETIC (STRICT)
+
+Aesthetic description (must be followed strictly):
+
+Soft cream / off-white background
+
+Accent color: deep muted red / rose red (same tone as logo)
+
+Minimalist, elegant, bakery-style branding
+
+Light vintage + modern blend
+
+Thin line illustrations, subtle curves
+
+Clean typography (serif for headings, clean sans-serif for body)
+
+No dark themes, no neon, no loud gradients
+
+Gentle micro-animations (hover, fade-in, card lift)
+
+Slight 3D depth using shadows only (not heavy 3D)
+
+Logo usage (MANDATORY):
+
+Use the provided Suss Sis logo exactly as-is
+
+No recoloring, reshaping, or distortion
+
+Logo visible in navbar and footer
+
+2️⃣ TECH STACK (EXPECTED)
+
+Frontend: Next.js / React
+
+Styling: Tailwind CSS
+
+Backend: Node.js + Express / Next API
+
+Database: PostgreSQL or MongoDB
+
+Auth: JWT / session-based authentication
+
+Payments: UPI (Razorpay or similar)
+
+Maps: Google Maps Embed
+
+Reviews: Google Reviews API
+
+Hosting ready (Vercel / Netlify compatible)
+
+3️⃣ SITE STRUCTURE (PAGES)
+Public Pages
+
+Home
+
+About Us
+
+Menu
+
+Custom Cake Builder
+
+Gallery
+
+Seasonal Specials
+
+Contact
+
+Login / Sign Up
+
+Admin-Only Pages
+
+Admin Dashboard
+
+Menu Management
+
+Orders Management
+
+Cake Builder Management
+
+Seasonal Specials Management
+
+Content & CMS Controls
+
+User Management
+
+4️⃣ HOME PAGE (SEO-FIRST)
+
+Hero section with tagline inspired by:
+“Crafted with Love, Served with Joy”
+
+Short intro about the cafe (from corporate overview)
+
+CTA buttons: Order Now, Custom Cakes
+
+Featured categories (Cakes, Savories, Beverages)
+
+Live Google Reviews section
+
+Seasonal banner (dynamic – controlled by admin)
+
+Internal linking for SEO
+
+Structured data (LocalBusiness schema)
+
+5️⃣ ABOUT US (FROM CORPORATE OVERVIEW)
+
+Include structured sections:
+
+Vision
+
+Mission
+
+Legacy
+
+Founder’s Journey (Mudra Khatri)
+
+Kitchen & Quality Assurance
+
+Community engagement & sustainability
+
+Text must be SEO-friendly but human-readable.
+
+6️⃣ MENU SYSTEM (CRITICAL)
+Menu Page Requirements
+
+All items from uploaded menu PDF
+
+Categories:
+
+Cakes
+
+Pastries
+
+Designer / Theme Cakes
+
+Pasta
+
+Pizza
+
+Burgers
+
+Fries
+
+Rice Bowls
+
+Beverages
+
+Kids Menu
+
+Filters:
+
+Veg / Non-Veg
+
+Category filter
+
+Search
+
+Each item card:
+
+Image
+
+Name
+
+Price
+
+Veg/Non-veg badge
+
+Add to Cart
+
+Item detail modal:
+
+Description
+
+Custom instructions
+
+Quantity selector
+
+7️⃣ CUSTOM CAKE BUILDER (VERY IMPORTANT)
+Flow:
+
+Select cake design (from previously made cake images)
+
+Select flavor
+
+Select weight (500g / 1kg / custom)
+
+Egg / Eggless option
+
+Custom message & instructions
+
+Add to cart → checkout
+
+Admin must be able to:
+
+Upload/remove cake designs
+
+Control available flavors & weights
+
+Set pricing dynamically
+
+8️⃣ ORDERING & CHECKOUT
+
+Cart system
+
+Checkout options:
+
+Immediate delivery
+
+Schedule delivery (date & time)
+
+Pickup or Delivery
+
+Address capture
+
+Payment:
+
+UPI integration
+
+Order confirmation page
+
+Email / WhatsApp order confirmation
+
+9️⃣ POS INTEGRATION (PETPOOJA)
+
+Orders placed on website must:
+
+Sync to PetPooja POS
+
+Appear in billing/dashboard
+
+Handle order status updates (pending, accepted, completed)
+
+🔟 ADMIN PANEL (MOST IMPORTANT)
+
+Admin login must allow:
+
+Edit menu items (price, availability, images)
+
+Enable/disable items
+
+Manage orders
+
+Update contact info, socials, address
+
+Upload gallery images
+
+Manage seasonal specials
+
+Update homepage banners
+
+Manage cake builder assets
+
+Toggle Google reviews display
+
+Admin panel must be hidden from public navigation.
+
+1️⃣1️⃣ SEASONAL SPECIALS SYSTEM
+
+Admin-controlled seasonal sections
+
+Example:
+
+Christmas → Plum Cakes, Hampers
+
+Diwali → Cupcakes & Gift Boxes
+
+Seasonal greeting banner auto-visible
+
+SEO-indexed seasonal pages
+
+1️⃣2️⃣ GALLERY
+
+Categorized gallery:
+
+Inauguration
+
+Events
+
+Special Orders
+
+Lightbox view
+
+Optimized images (lazy loading)
+
+1️⃣3️⃣ FOOTER & FIXED ELEMENTS
+Footer must include:
+
+Address (from overview)
+
+Phone number
+
+Email
+
+Social icons:
+
+Instagram
+
+Google
+
+Zomato
+
+Swiggy
+
+Copyright:
+© Suss Sis Gourmet Bakery & Cafe
+
+Fixed Elements:
+
+Floating WhatsApp button
+
+Visible on all pages
+
+Redirects to WhatsApp Business chat
+
+1️⃣4️⃣ AUTHENTICATION
+
+User login & signup
+
+Admin login (separate role)
+
+Role-based access control
+
+Secure password handling
+
+1️⃣5️⃣ DATABASE DESIGN
+
+Create databases for:
+
+Users
+
+Admins
+
+Menu items
+
+Orders
+
+Cake designs
+
+Seasonal specials
+
+Reviews cache
+
+Gallery images
+
+1️⃣6️⃣ SEO REQUIREMENTS
+
+Meta tags on every page
+
+Open Graph tags
+
+Sitemap
+
+Robots.txt
+
+Image alt text
+
+Clean URLs
+
+Fast load time
+
+Mobile-first design
+
+1️⃣7️⃣ FINAL EXPECTATION
+
+Fully responsive
+
+Production-ready
+
+Clean, maintainable code
+
+No placeholders
+
+No dummy logic
+
+Must strictly follow provided branding & aesthetic
+
+❗IMPORTANT
+
+Do NOT change branding, colors, logo, or tone.
+This website represents a real business.
