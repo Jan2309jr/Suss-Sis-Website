@@ -9,6 +9,7 @@ import {
 import { eq, like } from "drizzle-orm";
 
 import session from "express-session";
+// @ts-ignore
 import connectSqlite from "connect-sqlite3";
 
 const SqliteStore = connectSqlite(session);

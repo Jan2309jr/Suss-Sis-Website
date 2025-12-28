@@ -1,9 +1,24 @@
 import type { Express } from "express";
 import session from "express-session";
 import passport from "passport";
-import LocalStrategy from "passport-local";
+import { Strategy as LocalStrategy } from "passport-local";
 import { storage } from "./storage";
 import * as crypto from "crypto";
+
+declare global {
+  namespace Express {
+    interface User {
+      id: number;
+      username: string;
+      password: string;
+      role: string;
+      name?: string | null;
+      phone?: string | null;
+      address?: string | null;
+      createdAt: Date | null;
+    }
+  }
+}
 
 // Simple password hashing (for demo - use bcrypt in production)
 function hashPassword(password: string): string {

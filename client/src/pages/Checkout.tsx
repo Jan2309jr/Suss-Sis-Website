@@ -32,8 +32,8 @@ export default function Checkout() {
       customerPhone: data.customerPhone,
       deliveryType: data.deliveryType,
       deliveryAddress: data.deliveryAddress,
-      totalAmount: total.toString(),
-      items: items,
+      totalAmount: total,
+      items: JSON.stringify(items),
       userId: user?.id
     }, {
       onSuccess: () => setLocation("/success")

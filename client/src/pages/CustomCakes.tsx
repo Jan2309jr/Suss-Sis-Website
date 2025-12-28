@@ -43,7 +43,7 @@ export default function CustomCakes() {
       id: Math.floor(Math.random() * 10000), // temp ID
       name: "Custom Cake",
       description: `${data.shape} - ${data.flavor} - ${data.weight}kg`,
-      price: (50 * Number(data.weight || 1)).toString(),
+      price: 50 * Number(data.weight || 1),
       category: "Custom",
       imageUrl: "https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=400",
       isVeg: data.isEggless,
