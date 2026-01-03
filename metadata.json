@@ -1,0 +1,7 @@
+{
+  "name": "Suss Sis Gourmet Bakery & Cafe",
+  "description": "A production-ready, elegant, and SEO-optimized website for Suss Sis Gourmet Bakery & Cafe, featuring a full menu, custom cake builder, and admin management system.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
